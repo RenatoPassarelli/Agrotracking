@@ -1,0 +1,20 @@
+.cabessalho{display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{justify-content: flex-start;
+        }
+
+img{max-width:2rem;
+    max-height:2rem;;
+    width: auto;
+    height: auto;
+    }
+
+.titulo {
+        align-self: center;
+        text-align: center;
+        text-decoration: underline;
+        flex-grow: 4;
+    }
