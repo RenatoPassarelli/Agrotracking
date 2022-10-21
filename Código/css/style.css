@@ -45,13 +45,23 @@ img{max-width:2rem;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
-    height: 27rem;
-    width: 10rem;
+    height: 50rem;
+    width: 12rem;
     font-size: 1.2rem;
     background-color: rgb(7, 112, 28);
 }
 
-.filho{margin: 0.5rem;
+.filho{width: 12rem;
+       padding-left: 0.8rem;
+       padding-bottom: 1rem;
+       border-bottom: 0.1rem solid white;
+}
+.logout{justify-content: flex-end;
+        border-bottom: transparent;
+        padding-top: 1rem;
+        padding-left: 4rem;
+        background-color: rgb(7, 78, 7);
+        width: 8rem;
 }
 
 a{color: white;
