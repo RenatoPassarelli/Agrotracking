@@ -40,6 +40,19 @@ img{max-width:2rem;
         font-size: 1.5rem;
         background-color: rgb(20, 144, 36);
 }
+
+.tarefa{ display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    background-color: aliceblue;
+    width: 15rem;
+    margin: 0.5rem;
+}
+
+.seta{height: 1rem ;
+      width: 1rem;  
+}
 /*Inicio*/
 .inicio{display: flex;
         flex-direction: row;
