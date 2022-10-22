@@ -148,7 +148,13 @@ a{color: white;
     margin-right: 0.3rem;
     margin-top: 0.2rem;
 }
-
+.date{background-color: transparent;}
+.datas{display: flex;
+        flex-direction: row;
+}
 .start{background-color: aliceblue;
 
+        
 }
+.fim{background-color: aliceblue;
+     margin-left: 2rem;}
