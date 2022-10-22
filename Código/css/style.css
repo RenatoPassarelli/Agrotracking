@@ -124,7 +124,7 @@ img{max-width:2rem;
     height: 50rem;
     width: 12rem;
     font-size: 1.2rem;
-    background-color: rgb(7, 112, 28);
+    background-color: rgb(9, 39, 122);
 }
 
 .filho{width: 10rem;
@@ -134,16 +134,15 @@ img{max-width:2rem;
 }
 
 .button {
-    background-color: #4c56af; /* Green */
     border: none;
     color: rgb(9, 39, 122);
-    height: 6rem;
+    height: 7rem;
     width: 12rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1.1rem;
+    margin: 0.2rem 0rem;
     transition-duration: 0.4s;
     cursor: pointer;
   }
@@ -155,7 +154,7 @@ img{max-width:2rem;
   
 .button2:hover {
     background-color:rgb(208, 216, 219);
-    color: white;
+    color: black;
 }
 
 .logout{justify-content: flex-end;
