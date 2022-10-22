@@ -209,10 +209,11 @@ a{color: white;
     background-color: darkolivegreen;
     width: 15rem;
     margin: 0.5rem;
-=======
+
+}
 .opcoes{display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 15rem;
->>>>>>> f1e440d3a19603425da21ed5c45143deae65afc5
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15rem;
+
 }
