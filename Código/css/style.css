@@ -171,3 +171,14 @@ a{color: white;
 }
 .fim{background-color: aliceblue;
      margin-left: 2rem;}
+
+.subtarefa{
+    border: 0.08rem solid black;
+}
+
+.setor{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 0.2rem;}
