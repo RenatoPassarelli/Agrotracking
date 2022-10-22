@@ -255,6 +255,7 @@ a{color: white;
     flex-direction: column;
     align-items: center;
     height: 50rem;
+    background-color: rgb(208, 216, 219);
     
 }
 
@@ -264,7 +265,9 @@ a{color: white;
     align-items: center;
     justify-content: space-between;
     height: 20rem;
+    width: 100rem;
     font-size: 1.5rem;
+    background-color: rgb(208, 216, 219);
     
 
 }
@@ -272,7 +275,7 @@ a{color: white;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: darkolivegreen;
+    background-color: grey;
     width: 15rem;
     margin: 0.5rem;
 
@@ -314,7 +317,7 @@ a{color: white;
     font-size: 2rem;
 }
 .img_pessoa{
-    border-radius: 5rem;
+    border-radius: 10rem;
 }
 .tit_pg{
     font-style: white;
