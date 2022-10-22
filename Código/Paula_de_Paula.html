@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <title>Paula de Paula</title>
+        <title>Mensagens</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
-            <h1>
-                <button onclick="history.go(-1);">Voltar</button>
-            </h1>
+            <ul class = "cabessalho">
+                <li class ="menu">
+                    <ul class = "botao">
+                        <li>
+                                <a href="botão_de_menu.html"> 
+                                <img src="fotos/botao.png" alt>
+                                </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="titulo">
+                    <h1>
+                   Conversas 
+                    </h1>
+                </li>
+                <li class ="mensagens">
+                       <a href="mensagens.html"> 
+                            
+                              <img src="fotos/mensagem.png" alt>
+                       
+                        </a>
+                </li>
+            </ul>
             
-            <h1>
-                Paula de Paula
-            </h1>
-    
-            <h3> 
-                bla bla bla
-            </h3>
-
-            <form>
-                <input id="example" type="text" name="text">
-                <input type="submit" value="Enviar">
-            </form>
-             
         </header>
         <main>
-            
-            
+              <ul class = 'conversa'>
+                <li class = 'cab'>
+                    <img src="/w3images/avatar_g2.jpg" class="img_pessoa">
+                    <h1> Paula de Paula</h1>
+                </li>
+                <li class = 'chatbox'>
+                    <p>A análise da secagem já ficou pronta.</p>
+                    <span class="time-right">11:00</span>
+                </li>
+                <li class = 'chatbox_me'>
+                    <p>Ok, obrigada Paula. </p>
+                    <span class="time-right">11:01</span>
+                </li>
+
+              </ul>
         </main>
     </body>
 </html>
