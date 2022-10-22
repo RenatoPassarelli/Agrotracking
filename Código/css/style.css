@@ -247,6 +247,7 @@ a{color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 2rem;
 }
 .img_pessoa{
     border-radius: 5rem;
