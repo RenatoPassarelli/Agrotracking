@@ -12,6 +12,14 @@
     align-self: center;
 }
 
+.img-bg{
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: autoS;
+}
 .menu{
       margin: 0.5rem ;
         }
@@ -60,7 +68,7 @@ img{max-width:2rem;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        background-image: repeating-conic-gradient(green 10% , rgb(165, 170, 10) 20%);
+        background-image: url("../fotos/fazenda.jpeg");
         height: 50rem;
 }
 
@@ -182,8 +190,6 @@ a{color: white;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
     margin-top: 0.2rem;}
-
-<<<<<<< HEAD
 
 /*mensagens*/
 .background1{
