@@ -182,3 +182,9 @@ a{color: white;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
     margin-top: 0.2rem;}
+
+.opcoes{display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 15rem;
+}
