@@ -252,4 +252,20 @@ a{color: white;
 .img_pessoa{
     border-radius: 5rem;
 }
+.tit_pg{
+    font-style: white;
+}
 
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+
+  .topnav input[type=text] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    padding: 1rem;
+    margin-left: 33rem;
+    font-size: 1rem;
+  }
