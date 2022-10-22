@@ -5,7 +5,7 @@
     justify-content: space-between;
     position: relative;
     width: 100%;
-    background-color: rgb(6, 59, 7);
+    background-color: rgb(9, 39, 122);
 }
 
 .botao{margin: 0.1rem;
@@ -28,6 +28,7 @@
     align-self: center;
 }
 
+
 img{max-width:2rem;
     max-height:2rem;;
     width: auto;
@@ -38,7 +39,7 @@ img{max-width:2rem;
         align-self: center;
         text-align: center;
         font-size: 2rem;
-        font-style: white;
+        font-style: red;
     }
 
 .tarefas{display: flex;
@@ -47,16 +48,16 @@ img{max-width:2rem;
         justify-content: space-evenly;
         height: 50rem;
         font-size: 1.5rem;
-        background-color: rgb(20, 144, 36);
+        background-color: rgb(234, 238, 242);
 }
 
 .tarefa{ display: flex; 
     flex-direction: column;
     justify-content: space-between;
     font-size: 1.4rem;
-    background-color: aliceblue;
-    width: 15rem;
-    margin: 0.5rem;
+    background-color: rgb(208, 216, 219);
+    width: 20rem;
+    margin: 0.4rem;
 }
 
 .seta{height: 1rem ;
@@ -128,7 +129,7 @@ a{color: white;
     padding: 0rem;
             width: 100%;
             height: 3rem;
-    background-color:rgb(20, 144, 36);
+    background-color:rgb(9, 39, 122);
 }
 
 /*adicionar tarefas*/
@@ -138,7 +139,7 @@ a{color: white;
        justify-content: center;
        align-items: center;
        height: 50rem;
-       background-color: green;
+       background-color: rgb(234, 238, 242);
 }
 
 .add{display: flex;
@@ -160,7 +161,7 @@ a{color: white;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.5rem;
-    background-color: aliceblue;
+    background-color: rgb(216, 230, 241);
     width: 15rem;
     margin: 0.5rem;
 
@@ -168,6 +169,7 @@ a{color: white;
 .son{margin-left: 0.3rem;
     margin-right: 0.3rem;
     margin-top: 0.2rem;
+    background-color: rgb(216, 230, 241)
 }
 .date{background-color: transparent;}
 .datas{display: flex;
