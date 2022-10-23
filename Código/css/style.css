@@ -5,6 +5,7 @@
     justify-content: space-between;
     position: relative;
     width: 100%;
+    height: 3rem;
     background-color: rgb(9, 39, 122);
 }
 
@@ -196,7 +197,7 @@ a{color: white;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       height: 50rem;
+       height:auto 50rem;
        background-color: rgb(234, 238, 242);
 }
 
@@ -276,7 +277,7 @@ a{color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50rem;
+    height:auto 50rem;
     background-color: rgb(208, 216, 219);
 }
 
