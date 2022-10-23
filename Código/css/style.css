@@ -1,5 +1,5 @@
 /* Estilo do index*/
-
+main{overflow: hidden;}
 .cabessalho{display: flex; 
     flex-direction: row;
     justify-content: space-between;
