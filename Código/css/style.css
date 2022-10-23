@@ -1,12 +1,8 @@
 /* Estilo do index*/
+
 main{overflow: hidden;
 }
-.cabessalho{display: flex; 
-}
 
-.cabessalho{
-
-main{overflow: hidden;}
 .cabessalho{display: flex; 
     font-family: 'DM Serif Display', serif;
     display: flex; 
