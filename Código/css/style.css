@@ -5,6 +5,9 @@ main{overflow: hidden;
 }
 
 .cabessalho{
+
+main{overflow: hidden;}
+.cabessalho{display: flex; 
     font-family: 'DM Serif Display', serif;
     display: flex; 
     flex-direction: row;
