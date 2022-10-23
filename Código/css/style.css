@@ -142,7 +142,7 @@ img{max-width:2rem;
     text-decoration: none;
     display: inline-block;
     font-size: 1.1rem;
-    margin: 0.2rem 0rem;
+    margin: 0.05rem 0rem;
     transition-duration: 0.4s;
     cursor: pointer;
   }
@@ -196,6 +196,25 @@ a{color: white;
        align-items: center;
        height: 50rem;
        background-color: rgb(234, 238, 242);
+}
+
+.fundo_inicial{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    background-color: transparent;
+}
+
+.add_inicial{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    height: 30rem;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .add{display: flex;
