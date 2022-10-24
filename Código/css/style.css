@@ -174,14 +174,6 @@ img{max-width:2rem;
     color: black;
 }
 
-.logout{justify-content: flex-end;
-        border-bottom: transparent;
-        padding-top: 1rem;
-        padding-left: 4rem;
-        background-color: rgb(7, 78, 7);
-        width: 8rem;
-}
-
 button{background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
