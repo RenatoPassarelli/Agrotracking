@@ -139,7 +139,7 @@ img{max-width:2rem;
     position: fixed;
     z-index: 1;
     justify-content: space-evenly;
-    height: 50rem;
+    height: 100%;
     width: 0rem;
     left: 0;
     top: 2.9rem;
