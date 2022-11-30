@@ -4,6 +4,8 @@ function goBack() {
 document.addEventListener('DOMContentLoaded', function() {
     barra = document.querySelectorAll('.barra')
     button = document.querySelectorAll(".button")
+    frequencia_menu = document.querySelector('.frequencia')
+    console.log(frequencia_menu.innerHTML)
     botao = document.querySelector('.botao_menu')
     fechado = botao.src 
     aberto = fechado.replace('fechado','aberto')
@@ -17,12 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 pagina = opcao.querySelectorAll('a')
                 for(pgn of pagina){
                     pgn.style.width = '12rem'
-                    console.log(pgn)
                 }
             }
-            for(pgn of button){
-                pgn.style.width = '12rem'
-            }
+            frequencia_menu.innerHTML = 'Frequência das tarefas'
         }
         else if (botao.src == aberto){
             botao.src = fechado
@@ -31,12 +30,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 pagina = opcao.querySelectorAll('a')
                 for(pgn of pagina){
                     pgn.style.width = '0rem'
-                    console.log(pgn)
                 }
             }
-            for(pgn of button){
-                pgn.style.width = '0rem'
-            }
+            frequencia_menu.innerHTML = ''
         }
     })
 })

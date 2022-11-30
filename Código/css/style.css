@@ -147,6 +147,7 @@ img{max-width:2rem;
     font-size: 1.2rem;
     background-color: rgb(9, 39, 122);
     overflow: hidden;
+    transition: width 0.4s;
 }
 
 .filho{width: 10rem;
@@ -159,7 +160,7 @@ img{max-width:2rem;
     border: none;
     color: rgb(9, 39, 122);
     height: 7rem;
-    width: 0rem;
+    width: 12rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -202,6 +203,7 @@ a{color: white;
             height: 3rem;
     background-color:rgb(9, 39, 122);
 }
+
 
 /*adicionar tarefas*/
 
