@@ -261,13 +261,13 @@ a{color: white;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 2rem;
+    height: 2.5rem;
     width: 15rem;
     border-radius: 0.75rem;
 }
 
 .padrao{
-    width: 13rem;
+    width: 10rem;
 }
 .data{
     width: 5rem;
@@ -280,9 +280,8 @@ a{color: white;
 }
 
 input{
-    border: 0.5rem;
+    border: 0.5rem, solid, black;
     border-radius: 0.4rem;
-    border-color: black;
 }
 
 .tipos{
