@@ -250,6 +250,7 @@ a{color: white;
     width: 20rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    border-radius: 1.5rem;
 }
 .title{
     font-family: 'Roboto Condensed', sans-serif;  
@@ -258,17 +259,36 @@ a{color: white;
 }
 .linha{display: flex;
     flex-direction: row;
-    background-color: aqua;
     justify-content: space-between;
+    align-items: center;
     height: 2rem;
     width: 15rem;
+    border-radius: 0.75rem;
 }
+
+.padrao{
+    width: 13rem;
+}
+.data{
+    width: 5rem;
+}
+.sub{
+    width: 7rem;
+}
+.ini,.end{
+    font-size: 1.3rem;
+}
+
+input{
+    border: 0.5rem;
+    border-radius: 0.4rem;
+    border-color: black;
+}
+
 .tipos{
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    height: 2rem;
-    transition: height 0.4s;
 }
 
 .tipo{
@@ -278,6 +298,7 @@ a{color: white;
     background-color: rgb(216, 230, 241);
     width: 15rem;
     margin: 0.5rem;
+    border-radius: 0.75rem;
 
 }
 .son{margin-left: 0.3rem;
@@ -285,15 +306,21 @@ a{color: white;
     margin-top: 0.2rem;
 }
 .date{background-color: transparent;}
+
 .datas{display: flex;
         flex-direction: row;
 }
-.start{background-color: rgb(216, 230, 241);
 
-        
+.start{
+    border-radius: 0.5rem;
+    background-color: rgb(216, 230, 241);   
 }
-.fim{background-color: rgb(216, 230, 241);
-     margin-left: 2rem;}
+
+.fim{
+    border-radius: 0.5rem;
+    background-color: rgb(216, 230, 241);
+     margin-left: 3.2rem;
+}
 
 .subtarefa{
     border: 0.08rem solid black;
