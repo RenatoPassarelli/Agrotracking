@@ -2,6 +2,7 @@ function goBack() {
     window.history.back()
 }
 document.addEventListener('DOMContentLoaded', function() {
+
     //Menu lateral
 
     barra = document.querySelectorAll('.barra')
@@ -9,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
     botao = document.querySelector('.botao_menu')
     fechado = botao.src 
     aberto = fechado.replace('fechado','aberto')
-
 
     botao.addEventListener('click', function(event) {
         if (botao.src == fechado){
@@ -35,4 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
         }
     })
+
+
+
 })
