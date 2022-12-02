@@ -1,6 +1,7 @@
 /* Estilo do index*/
 
-main{overflow: hidden;
+main{
+    overflow: hidden;
 }
 
 
@@ -9,7 +10,6 @@ main{overflow: hidden;
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
     width: 100%;
     height: 3rem;
     background-color: rgb(9, 39, 122);
@@ -50,13 +50,23 @@ img{max-width:2rem;
         font-style: red;
     }
 
+.hoje{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 100%; 
+    background-color:rgb(97, 95, 95) ;
+}
 .tarefas{
         font-family: 'Roboto Condensed', sans-serif;    
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        height: 50rem;
+        height: 47rem;
         font-size: 1.5rem;
         background-color: rgb(234, 238, 242);
 }
@@ -136,18 +146,19 @@ img{max-width:2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    height: 100%;
+    height: 50rem;
     width: 0rem;
     left: 0;
-    top: 2.9rem;
+    top: 3rem;
     border-top: 0;
     font-size: 1.2rem;
     background-color: rgb(9, 39, 122);
     overflow-x: hidden;
     transition: width 0.4s;
 }
+
 
 .filho{width: 10rem;
        padding-left: 0.8rem;
@@ -188,7 +199,7 @@ button{background-color: Transparent;
 }
 
 a{color: white;
-
+    text-decoration: none;
 }
 
 .adicionar{display: flex;
@@ -198,8 +209,8 @@ a{color: white;
     top: 0rem;
     border-color:transparent ;
     padding: 0rem;
-            width: 100%;
-            height: 3rem;
+    width: 100%;
+    height: 3rem;
     background-color:rgb(9, 39, 122);
 }
 
@@ -212,8 +223,13 @@ a{color: white;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 50rem;
-        background-color: rgb(234, 238, 242);
+        top: 1.5rem;
+        height: 0rem;
+        position: fixed;
+        z-index: 1;
+        background-color: transparent;
+        overflow: hidden;
+        transition: height 0.3s;
 }
 
 
