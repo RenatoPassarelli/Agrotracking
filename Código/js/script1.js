@@ -4,20 +4,21 @@ document.addEventListener('DOMContentLoaded', function() {
     index = dir + '/Index.html'
     // Tipo de tarefas 
     tarefas = document.querySelector('.tarefas')
-    teste = document.querySelector('.teste')
+    add_tarefa = document.querySelector('.add_tarefa')
     fundo = document.querySelector('.fundo')
     inputs = document.querySelectorAll('input')
-    console.log(inputs)
     opcoes = document.querySelector('.opcoes')
     adicionar = document.querySelector('.confirma')
+    cancela = document.querySelector('.cancela')
     a = opcoes.querySelector('a')
 
-    teste.addEventListener('click', function(){
+    add_tarefa.addEventListener('click', function(){
         for (input of inputs){
             input.value = ''
         }
         fundo.style.height = '50rem'
     })
+
     adicionar.addEventListener('click', function(){
         t = 0
         for (input of inputs){
@@ -66,9 +67,12 @@ document.addEventListener('DOMContentLoaded', function() {
             tarefas.appendChild(nova_tarefa)
             fundo.style.height = '0rem'
         }
-
-
     })
+    
+    cancela.addEventListener('click', function(){
+        fundo.style.height = '0rem'
+    })
+
     })
 
 
