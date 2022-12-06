@@ -36,32 +36,4 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 
-    prof = document.querySelectorAll('.msg-usuario')
-    i = 0
-    while (i<(prof.length)){
-        nome = prof[i].querySelectorAll('h2')
-        nome[0].innerHTML = 'Funcionário x'
-        
-        i+=1
-    }
-
-    eu = document.querySelectorAll('.msg-resposta')
-    i = 0
-    while (i<(eu.length)){
-        re = eu[i].querySelectorAll('h2')
-        re[0].innerHTML = 'Eu'
-        i+=1
-    }
-
-    i = 0
-    horário = document.querySelectorAll('h3')
-    x = 0
-    while (i<(horário.length)){
-
-        hora = "08:0"+ x + ' 07 de Dezembro'
-        horário[i].innerHTML = hora
-        i+=1
-        x+=1
-    }
-
 })

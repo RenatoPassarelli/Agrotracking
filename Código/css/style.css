@@ -14,6 +14,7 @@ main{
     height: 3rem;
     background-color: rgb(9, 39, 122);
 }
+
 .cabessalho2{display: flex; 
     font-family: 'DM Serif Display', serif;
     display: flex; 
@@ -242,7 +243,15 @@ a{color: white;
         transition: height 0.3s;
 }
 
-
+.fundo_mensagens{
+    font-family: 'Roboto Condensed', sans-serif;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 1.5rem;
+    height: 47rem;
+}
 
 .fundo_inicial{
     font-family: 'Roboto Condensed', sans-serif;
@@ -517,7 +526,9 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 40rem;
     background-color:rgb(208, 216, 219);
+    overflow: scroll;
 }
 .msg-resposta, .msg-usuario{
     font-family: 'Share Tech', sans-serif;
