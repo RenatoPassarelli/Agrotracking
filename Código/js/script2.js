@@ -11,10 +11,17 @@ document.addEventListener('DOMContentLoaded', function() {
         if(minuscula == 'tarefas' ){
             cab1.style.height = '40rem'
             cab2.style.height = '0rem'
+            input.value = ''
+            input.style.borderColor = 'black'
         }
-        if(minuscula == 'colheita'){
+        else if(minuscula == 'colheita'){
             cab2.style.height = '40rem'
             cab1.style.height = '0rem'
+            input.value = ''
+            input.style.borderColor = 'black'
+        }
+        else{
+            input.style.borderColor = 'red'
         }
     })
 })
