@@ -526,7 +526,7 @@ input{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 40rem;
+    height: 41rem;
     background-color:rgb(208, 216, 219);
     overflow: scroll;
 }
