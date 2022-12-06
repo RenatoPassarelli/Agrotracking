@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     loc = window.location.pathname
     dir = loc.substring(0, loc.lastIndexOf('/'))
-    index = dir + '/Index.html'
+    fotos = dir + '/fotos'
     // Tipo de tarefas 
     tarefas = document.querySelector('.tarefas')
     add_tarefa = document.querySelector('.add_tarefa')
@@ -11,11 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     adicionar = document.querySelector('.confirma')
     cancela = document.querySelector('.cancela')
     a = opcoes.querySelector('a')
+    tarefa_concluida = document.querySelector('.tarefa_concluida')
 
     add_tarefa.addEventListener('click', function(){
-        for (input of inputs){
-            input.value = ''
-        }
         fundo.style.height = '50rem'
     })
 
@@ -53,10 +51,35 @@ document.addEventListener('DOMContentLoaded', function() {
             nova_tarefa_nome = document.createElement('p')
             nova_tarefa_nome.classList.add('setor')
             nova_tarefa_nome.style.color = '#b10f0f'
-            checkbox = document.createElement('input')
-            checkbox.type = 'checkbox'
             nova_tarefa_nome.innerHTML = tipo
-            nova_tarefa_nome.appendChild(checkbox)
+
+            checkbox = document.createElement('img')
+            checkbox.classList.add('checkbox')
+            checkbox.src = fotos + '/box.png'
+            afazer = checkbox.src
+            concluir = checkbox.src.replace('box','checkbox')
+            checkbox.addEventListener('click',function(){
+                if (checkbox.src == afazer){
+                    checkbox.src = concluir
+                }
+                else if (checkbox.src == concluir){
+                    checkbox.src = afazer
+                }
+                
+            })
+
+            trash = document.createElement('img')
+            trash.src = fotos + '/trash.png'
+            trash.addEventListener('click', function(){
+                nova_tarefa.remove()
+            })
+
+            icones = document.createElement('ul')
+
+            
+            icones.appendChild(checkbox)
+            icones.appendChild(trash)
+            nova_tarefa_nome.appendChild(icones)
             nova_tarefa.appendChild(nova_tarefa_nome)
 
             nova_tarefa_cargo = document.createElement('h4')
@@ -66,11 +89,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
             tarefas.appendChild(nova_tarefa)
             fundo.style.height = '0rem'
+            checkbox_lista = document.querySelectorAll('.checkbox')
+            for (input of inputs){
+                input.value = ''
+            }
         }
+        
     })
     
     cancela.addEventListener('click', function(){
         fundo.style.height = '0rem'
+        for (input of inputs){
+            input.value = ''
+        }
     })
 
     })
