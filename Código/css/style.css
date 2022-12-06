@@ -420,14 +420,23 @@ input{
     align-items: center;
     height: 47rem;
 }
-.cab{
+.cab1{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    font-size: 3rem;
-    height: 40rem;
-
+    height: 0rem;
+    font-size: 2.2rem;
+    overflow: hidden;
+    transition: height 0.3s;
+}
+.cab2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 0rem;
+    font-size: 2rem;
+    overflow: hidden;
+    transition: height 0.3s;
 }
 .img_pessoa{
     border-radius: 10rem;
@@ -440,22 +449,39 @@ input{
     height: 3rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     background-color: #e9e9e9;
   }
 
+.buscar{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 13.5rem;
+    height: 3rem;
+}
+
 .espaco{
     width: 2rem;
 }
 
- .grafico{
-    background-image: url("../fotos/gráfico.png");
+ .grafico1{
+    background-image: url("../fotos/grafico2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 15rem;
-    width: 15rem;
+    width: 20rem;
+    overflow: hidden;
+ }
+ .grafico2{
+    background-image: url("../fotos/grafico2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    width: 17rem;
     overflow: hidden;
  }
 
