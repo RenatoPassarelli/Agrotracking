@@ -498,20 +498,34 @@ input{
     .mask-centro{
         width: 11.55rem;
     }
+ }
 
+ .msg-titulo, .msg-titulo-invertido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: black;
+}
 
+.msg-titulo-invertido{
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: black;
+}
 .msg-panel{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #FFF4FA;
+    background-color:rgb(208, 216, 219);
 }
 .msg-resposta, .msg-usuario{
+    font-family: 'Share Tech', sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0.5rem 2.5rem;
     padding: 1rem;
-    color: white;
+    color: black;
 }
     
 .msg-usuario{
@@ -525,20 +539,22 @@ input{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    background-color:#B34983;
-    border: #B34983 0.2rem solid;
+    background-color:rgb(59, 120, 225);
+    border: rgb(59, 120, 225) 0.2rem solid;
     padding: 1rem;
     border-radius: 0.5rem;
+    color: white;
 }
     
 .bolha-resposta{
     display: flex;
     flex-direction: column;
     align-self: flex-end;
-    background-color: #482861;
-    border-color: #D9AADD;
+    background-color: rgb(9, 39, 122);
+    border-color: rgb(9, 39, 122);
     padding: 1rem;
     border-radius: 0.5rem;
+    color: white;
 }
     
 .bloco-envio-msg{
@@ -546,19 +562,20 @@ input{
     flex-direction: row;
     padding: 0.2rem;
     margin: 1.2rem;
+    border-color: rgb(59, 120, 225)
 }
     
 .entrada-msg{
     width: 80%;
     margin-right: 1%;
-    border: #482861 1px solid;
+    border: rgb(9, 39, 122) 2px solid;
 }
     
 .botao-enviar{
     width: 20%;
     font-size: 1.5rem;
     color: white;
-    background-color: #482861;
+    background-color: rgb(9, 39, 122);
 }
 input[type="text"]
 {
@@ -597,7 +614,4 @@ input[type="text"]
     .botao-enviar{
         width: 30%;
     }
-}
-
-
 }
