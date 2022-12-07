@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     input = document.querySelector('.entrada-msg')
     msg_painel = document.querySelector('.msg-panel')
     enviar.addEventListener('click',function(){
-        mensagem = document.createElement('p')
+        if(input.value != ''){
+            mensagem = document.createElement('p')
         mensagem.innerHTML = input.value
 
         bolha_resposta = document.createElement('div')
@@ -30,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
         msg_painel.appendChild(msg_resposta)
         input.value = ''
+        }
+        
 
     })
 
