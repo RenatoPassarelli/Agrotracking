@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     prof = document.querySelectorAll('.msg-usuario')
     perfil = document.querySelector('.perfil')
-    console.log(perfil)
     i = 0
     while (i<(prof.length)){
         nome = prof[i].querySelectorAll('h2')
