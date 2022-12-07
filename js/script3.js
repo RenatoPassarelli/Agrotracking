@@ -5,32 +5,32 @@ document.addEventListener('DOMContentLoaded', function() {
     enviar.addEventListener('click',function(){
         if(input.value != ''){
             mensagem = document.createElement('p')
-        mensagem.innerHTML = input.value
+            mensagem.innerHTML = input.value
 
-        bolha_resposta = document.createElement('div')
-        bolha_resposta.classList.add('bolha-resposta')
+            bolha_resposta = document.createElement('div')
+            bolha_resposta.classList.add('bolha-resposta')
 
-        bolha_resposta.appendChild(mensagem)
+            bolha_resposta.appendChild(mensagem)
 
-        msg_titulo = document.createElement('div') 
-        msg_titulo.classList.add('msg-titulo-invertida')
+            msg_titulo = document.createElement('div') 
+            msg_titulo.classList.add('msg-titulo-invertida')
 
-        nome = document.createElement('h2')
-        horario = document.createElement('h3')
-        
-        nome.innerHTML = 'Eu'
-        horario.innerHTML = "08:07" + ' 07/12'
+            nome = document.createElement('h2')
+            horario = document.createElement('h3')
+            
+            nome.innerHTML = 'Eu'
+            horario.innerHTML = "08:07" + ' 07/12'
 
-        msg_titulo.appendChild(nome)
-        msg_titulo.appendChild(horario)
+            msg_titulo.appendChild(nome)
+            msg_titulo.appendChild(horario)
 
-        msg_resposta = document.createElement('section')
-        msg_resposta.classList.add('msg-resposta')
-        msg_resposta.appendChild(msg_titulo)
-        msg_resposta.appendChild(bolha_resposta)
+            msg_resposta = document.createElement('section')
+            msg_resposta.classList.add('msg-resposta')
+            msg_resposta.appendChild(msg_titulo)
+            msg_resposta.appendChild(bolha_resposta)
 
-        msg_painel.appendChild(msg_resposta)
-        input.value = ''
+            msg_painel.appendChild(msg_resposta)
+            input.value = ''
         }
         
 
