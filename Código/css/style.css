@@ -482,6 +482,10 @@ input{
     height: 3rem;
 }
 
+.barra_buscar{
+    width: 100%;
+}
+
 .espaco{
     width: 2rem;
 }
@@ -592,6 +596,10 @@ input[type="text"]
 {
     padding: 0.4rem;
     font-size: 18px;
+}
+.perfil{
+    font-size: 100% ;
+    width: 13rem;
 }
 @media only screen and (max-width: 600px) {
     .cabecalho{
