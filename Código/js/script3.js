@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
         horario = document.createElement('h3')
         
         nome.innerHTML = 'Eu'
-        horario.innerHTML = "08:07" + ' 07 de Dezembro'
+        horario.innerHTML = "08:07" + ' 07/12'
 
         msg_titulo.appendChild(nome)
         msg_titulo.appendChild(horario)
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     x = 0
     while (i<(horário.length)){
 
-        hora = "08:0"+ x + ' 07 de Dezembro'
+        hora = "08:0"+ x + ' 07/12'
         horário[i].innerHTML = hora
         i+=1
         x+=1
